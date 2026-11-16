@@ -1,0 +1,7 @@
+services:
+  afsg-api:
+    build: .
+    container_name: afsg-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
